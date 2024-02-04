@@ -14,4 +14,10 @@
  */
 export function arraySum(numbers: number[]): number {
     // 在此實現函式
+    return numbers.reduce((acc, cur) => acc + cur, 0)
+    
+    // const sum = numbers.reduce((acc, cur) => {
+    //     return acc + cur
+    // }, 0)
+    // return sum
 }
